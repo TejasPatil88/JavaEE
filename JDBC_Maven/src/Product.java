@@ -119,6 +119,7 @@ while(rs.next())
 	p1.setQty(rs.getInt("qty"));
 	p1.setCost(rs.getInt("cost"));
 	p1.setPname(rs.getNString("pname"));
+	System.out.println("After retrival ");
 	System.out.println(p1.toString());
 }
 
